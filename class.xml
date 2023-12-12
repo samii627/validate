@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employer [
+    <!ELEMENT employer (employe +)>
+    <!ELEMENT employe (name,salary,department)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+]>
+<employer>
+    <employe id="5">
+    <name>burhan</name>
+    <salary>30000</salary>
+    <department>hr</department>
+</employe>
+<employe id="6">
+    <name>iftikhar</name>
+    <salary>40000</salary>
+    <department>marketer</department>
+</employe>
+<employe id="7">
+    <name>hassan lodhi</name>
+    <salary>50000</salary>
+    <department>writer</department>
+</employe>
+<employe id="8">
+    <name>junaid</name>
+    <salary>300000</salary>
+    <department>developer</department>
+</employe>
+<employe id="9">
+    <name>waleed</name>
+    <salary>45000</salary>
+    <department>designer</department>
+</employe>
+</employer>
